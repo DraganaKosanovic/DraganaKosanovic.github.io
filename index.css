@@ -153,34 +153,3 @@ button {
 }
 
 
-@media screen and (max-width: 900px) {
-
-    .kader{
-    	display: block;
-    	width: 100%;
-    }
-
-
-@media screen and (max-width: 1400px){
-	.kader{
-		width: 70%;
-	}
-}
-
-@media screen and (max-width: 1300px){
-	.kader{
-		width: 75%;
-	}
-}
-
-@media screen and (max-width: 1200px){
-	.kader{
-		width: 80%;
-	}
-}
-
-@media screen and (max-width: 1000px){
-	.kader{
-		width: 90%;
-	}
-}
