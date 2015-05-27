@@ -1,0 +1,186 @@
+body{
+	max-width: 100%;
+	background-color: white;
+
+}
+
+.extrabody{
+	background-color: black;
+}
+
+
+.kader{
+	
+}
+
+.header{
+	width: 100%;
+	height:50em;
+	background-color: #F0F8FF;
+	border-bottom: 0.5em solid black;
+	clear: both;
+}
+
+.header2{
+	width: 100%;
+	height:50em;
+	background-image: url(foto2.jpg);
+	border-bottom: 0.5em solid black;
+	clear: both;
+}
+
+.kaderportfolio{
+	width: 70%;
+	height: 35em;
+	border: none;
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 2em;
+	margin: 7em 4em 0 18em;
+	position: absolute;
+}
+
+
+.fotoportfolio{
+	max-width: 50%;
+	margin-top: 5%;
+}
+
+
+.kaderaboutme{
+	width: 70%;
+	height: 35em;
+	border: none;
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 2em;
+	margin: 7em 4em 0 18em;
+	position: absolute;
+}
+
+li{
+	display: inline;
+	font-size: 3em;
+	margin: 5em 4em 0 4em;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Lobster', cursive;
+
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.nav{
+	text-align: center;
+	margin-top: 2.5em;
+
+}
+
+.cr{
+	font-family: helvetica cursive;
+	margin-top: -0.5%;
+}
+
+.text{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	margin: 6em 0 0 20em;
+	font-size: 1.2em;
+	
+}
+
+.foto1{
+	width: 100%;
+	height: 800px;
+
+
+}
+
+.fotoaboutme{
+	margin-top: -30em;
+	position: absolute;
+	color: solid;
+
+}
+
+.klik{
+	max-width: 8.78em;
+	max-height: 0.7em;
+	padding: 4em;
+	background-image: url(logo4.png);
+	margin-left: 52em;
+	margin-top: 0.5em;
+}
+
+button {
+	border: 3px solid black;
+	width: 8em;
+	height: 3em;
+	margin-top: -2.5em;
+	margin-left: -1.1em;
+	border-radius: 50px;
+	background-color: white;
+	font-family: 'Lobster', cursive;
+	clear: both;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+.fb{
+	max-width: 7em;
+	margin-top: -2.5em;
+	float: right;
+	clear: both;
+	margin-right: 1em;
+}
+
+.instagram{
+	max-width: 7em;
+	margin-top: -2.5em;
+	float: right;
+	clear: both;
+	margin-right: 10em;
+}
+
+.ap{
+	color: red;
+}
+.ontzichtbaar{
+	display: none;
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .kader{
+    	display: block;
+    	width: 100%;
+    }
+
+
+@media screen and (max-width: 1400px){
+	.kader{
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 1300px){
+	.kader{
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	.kader{
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.kader{
+		width: 90%;
+	}
+}
